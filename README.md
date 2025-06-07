@@ -13,8 +13,9 @@ breast-mass-detection/
 ├── README.md           # This file
 ├── detect.py          # Run detection on images
 ├── best.pt            # Trained model weights
-├── results.png        # Training curves and metrics
-└── sample_images/     # Example mammogram images
+├── results/          # Training curves and metrics
+|-- sample_images/     # Example of model in action
+|-- dataset/           # Raw CBIS-DDSM dataset on which the entire processing was made      
 ```
 
 ##  Quick Start
@@ -54,3 +55,7 @@ From training analysis:
 - Model achieves perfect precision at higher confidence thresholds
 - Confusion matrix indicates good class separation
 - Recommended for clinical screening pipeline integration
+
+## Contact
+- [PRAGATA GHOSH](pragata2004@gmail.com) (email)
+- [PRAGATA](+919475170335)
